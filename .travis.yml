@@ -1,4 +1,4 @@
 language: java
-
-mvn package
-
+script:
+  - cd my-app
+  - mvn package
